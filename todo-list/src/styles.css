@@ -5,7 +5,6 @@ h1, p, ul, li {
   font: inherit;
   vertical-align: baseline;
 }
-​
 body {
   background: #f1f1f1;
   font-size: 16px;
@@ -13,11 +12,9 @@ body {
   color: #404040;
   font-family: 'Lucida Grande', Verdana, sans-serif;
 }
-​
 ol, ul {
   list-style: none;
 }
-​
 .btn {
   background: lightseagreen;
   color: #fff;
@@ -30,19 +27,15 @@ ol, ul {
   cursor: pointer;
   vertical-align: bottom;
 }
-​
 .btn:hover {
   background: lightslategrey;
 }
-​
 .btn-red {
   background: red;
 }
-​
 .btn-red:hover {
   background: darkred;
 }
-​
 .app-title {
   font-size: 52px;
   line-height: 52px;
@@ -51,3 +44,4 @@ ol, ul {
   text-align: center;
   letter-spacing: -0.8px;
 }
+
