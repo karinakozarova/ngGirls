@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputButtonUnitComponent } from './input-button-unit/input-button-unit.component';
 import { TodoItemComponent } from './todo-item/todo-item.component';
+import { ListManagerComponent } from './list-manager/list-manager.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputButtonUnitComponent,
-    TodoItemComponent
+    TodoItemComponent,
+    ListManagerComponent
   ],
   imports: [
     BrowserModule,
