@@ -31,7 +31,19 @@ export class ListManagerComponent implements OnInit {
   }
 
   addItem(title: string) {
-      this.todoListService.addItem({ title });
+      console.log(this.todoListService.todoList)
+      var found = false;
+      for(var i = 0; i < this.todoListService.todoList.length; i++) {
+          if (this.todoListService.todoList[i].title  == title) {
+              found = true;
+              break;
+          }
+      }
+      if(!found) this.todoListService.addItem({ title });
+      else{
+        alert("Already in list.")
+      }
+     
   }
 
   removeItem(item) {
